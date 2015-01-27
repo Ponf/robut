@@ -17,4 +17,5 @@ group :plugin do
   gem 'twss'
   gem 'meme_generator'
   gem 'nokogiri'
+  gem 'jira-ruby'
 end

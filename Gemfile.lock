@@ -8,19 +8,28 @@ PATH
 GEM
   remote: http://rubygems.org/
   specs:
+    activesupport (3.2.21)
+      i18n (~> 0.6, >= 0.6.4)
+      multi_json (~> 1.0)
     addressable (2.2.6)
     calc (1.0.0)
     classifier (1.3.1)
       stemmer (>= 1.0.0)
     crack (0.1.8)
+    i18n (0.6.11)
+    jira-ruby (0.1.10)
+      activesupport
+      oauth
     meme_generator (1.9)
       nokogiri (~> 1.4)
     metaclass (0.0.1)
     mini_portile (0.5.2)
     mocha (0.14.0)
       metaclass (~> 0.0.1)
+    multi_json (1.10.1)
     nokogiri (1.6.0)
       mini_portile (~> 0.5.0)
+    oauth (0.4.7)
     rack (1.5.2)
     rack-protection (1.5.1)
       rack
@@ -49,6 +58,7 @@ PLATFORMS
 
 DEPENDENCIES
   calc
+  jira-ruby
   meme_generator
   mocha
   nokogiri
